@@ -2,7 +2,7 @@
 A tool used to auto-rename distorted file and directory names in dumped version of Forza Horizon 3.
 
 ## Download
-- <a href="https://github.com/oxmaulmike2581/FH3DecryptNames/releases/latest">version 1.0.0.0</a>
+- <a href="https://github.com/oxmaulmike2581/FH3DecryptNames/releases/download/1.0.0.0/FH3DecryptNames-1.0.0.0.7z">version 1.0.0.0</a>
 
 ## Features
 - batch rename whole folder with all subfolders and files in it, given as input path
