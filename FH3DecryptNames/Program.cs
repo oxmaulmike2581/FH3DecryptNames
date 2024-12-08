@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
@@ -238,11 +238,11 @@ namespace FH3DecryptNames
 
 			if (unzip)
 			{
-				psi.Arguments = $"x -o\"{dir}\" {archive}";
+				psi.Arguments = $"x -o\"{dir}\" \"{archive}\"";
 			}
 			else
 			{
-				psi.Arguments = $"a -tzip -o\"{outdir}\" {archive} \"{dir}\\*\"";
+				psi.Arguments = $"a -tzip -o\"{outdir}\" \"{archive}\" \"{dir}\\*\"";
 			}
 
 			Process p = new Process
